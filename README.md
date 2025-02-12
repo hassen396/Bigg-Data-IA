@@ -1,4 +1,4 @@
-# README for E-Commerce Fraud Detection Data Processing Assignment
+# E-Commerce Fraud Detection Data Processing
 
 ## Overview
 This project focuses on processing a dataset containing e-commerce transactions, cleaning the data, and loading it into a PostgreSQL database for further analysis. The dataset includes details such as transaction amounts, customer locations, payment methods, and fraud indicators. The goal is to ensure data integrity, prepare the data for analysis, and store it in a structured database.
@@ -186,22 +186,22 @@ df.to_sql(TABLE_NAME, engine, if_exists='append', index=False)
 print("Data successfully loaded into PostgreSQL.")
 ```
 ### Output
-Cleaned Data:
+    Cleaned Data:
 
-The cleaned dataset is saved as cleaned_Fraudulent_E-Commerce_Transaction_Data.csv.
+### The cleaned dataset is saved as cleaned_Fraudulent_E-Commerce_Transaction_Data.csv.
 
-PostgreSQL Database:
+    Postgr eSQL Database:
 
-The cleaned data is loaded into the transactions table in the ecommerce_db PostgreSQL database.
+### The cleaned data is loaded into the transactions table in the ecommerce_db PostgreSQL database.
 ### Insights from the Data
-The processed data can be used for further analysis, such as:
+    The processed data can be used for further analysis, such as:
 
-Analyzing the distribution of fraudulent transactions.
+    Analyzing the distribution of fraudulent transactions.
 
-Exploring customer demographics and behavior.
+    Exploring customer demographics and behavior.
 
 ### Conclusion
-This project demonstrates the process of downloading, cleaning, and storing e-commerce transaction data in a PostgreSQL database. The cleaned data is ready for further analysis and visualization to gain insights into transaction patterns and fraud detection.
+    This project demonstrates the process of downloading, cleaning, and storing e-commerce transaction data in a PostgreSQL database. The cleaned data is ready for further analysis and visualization to gain insights into transaction patterns and fraud detection.
 ### Submission Date
-February 2025
+    February 2025
 
