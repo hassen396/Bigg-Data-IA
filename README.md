@@ -1,3 +1,5 @@
+# The insight generated on Power bi is located here https://drive.google.com/drive/folders/1STB9QD5s7hLbEBrx1H59BhuiWx3YivEC?usp=sharing  (I was unable to upload the data because of the size limit imposed by Github)
+
 # E-Commerce Fraud Detection Data Processing
 
 ## Overview
